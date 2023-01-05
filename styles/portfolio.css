@@ -75,6 +75,17 @@ nav li {
     background-repeat: no-repeat;
 }
 
+.banner .button-add {
+    padding:18px 23px 17px 58px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+
+
+}
+
 /* main part style */
 main {
     max-width: 1040px;
@@ -180,11 +191,12 @@ main {
 
 .resume-content {
     display: flex;
-    gap:30px;
+    gap: 30px;
 }
-.resume-item{
+
+.resume-item {
     margin-top: 30px;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
 
 .item-title {
@@ -208,33 +220,39 @@ main {
     font-size: 16px;
     color: #757575;
 }
-.resume-button{
+
+.resume-button {
     text-align: center;
     margin-top: 10px;
 }
+
 /* contact style */
-.contact{
-    display:flex;
-    gap:20px;
+.contact {
+    display: flex;
+    gap: 20px;
     background: #FFF8F3;
-    padding:110px 70px;
+    padding: 110px 70px;
     margin-top: 100px;
 }
-   
-.contact .section-title{
+
+.contact .section-title {
     text-align: left;
-  
+
 }
-.contact-description{
+
+.contact-description {
     color: #474747;
     margin-bottom: 50px;
 }
-.contact input,textarea{
+
+.contact input,
+textarea {
     margin-bottom: 24px;
-    border:0;
+    border: 0;
     width: 70%;
-    padding:18px 30px;
+    padding: 18px 30px;
 }
-.contact a{
+
+.contact a {
     text-decoration: none;
 }
